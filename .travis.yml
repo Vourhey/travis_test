@@ -1,4 +1,8 @@
 language: bash
 
+services:
+  - docker
+
 script:
   - bash script.sh
+  - echo "And from .travis.yml"
